@@ -1,0 +1,7 @@
+target
+
+# Eclipse files
+.settings
+.classpath
+.project
+.scala_dependencies
