@@ -8,7 +8,7 @@ object ConferenceModel {
   val filteredSpeakers = ObservableBuffer[Speaker]()
 
   def loadLocal() {
-    ZipUtility.getZipFiles(getClass.getResourceAsStream("conferenceData.zip"), "")
+    ZipUtility.getZipFiles(getClass.getResourceAsStream("/conferenceData.zip"), "")
   }
 
   def loadCloud() {
